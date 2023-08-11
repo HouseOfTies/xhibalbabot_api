@@ -8,7 +8,6 @@ async function bootstrap() {
     .setTitle('Xhibalbabot API')
     .setDescription('This api serve the bot data')
     .setVersion('1.0')
-    .addTag('Bot', 'Telegram bot')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('', app, document);
